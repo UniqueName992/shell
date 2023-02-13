@@ -48,7 +48,7 @@ zplug load
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # User scripts
-for file in $HOME/shell/*; do
+for file in $HOME/.shell/*; do
 #    print("HI")
     source "$file"
 done
